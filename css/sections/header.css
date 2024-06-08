@@ -19,6 +19,9 @@
 }
 
 .header__logo h4 {
+  font-family: var(--playfair-display);
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
   padding-left: 30px;
   color: #fff;
   z-index: 2;
