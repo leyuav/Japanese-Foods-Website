@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/sushi.png">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/sushi.png" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>今すぐ寿司を食べる</title>
   </head>
+
   <body>
     <header>
       <nav class="header__nav">
-
         <div class="header__logo">
           <h4>EAT SUSHI NOW</h4>
           <div class="header__logo-overlay"></div>
@@ -30,18 +30,47 @@
             <a href="#about-us">About Us</a>
           </li>
           <li>
-            <img src="assets/search.svg" alt="search panel">
+            <img src="assets/search.svg" alt="search menu icon" />
           </li>
         </ul>
 
         <ul class="header__menu-mobile">
           <li>
-            <img src="assets/menu.svg" alt="menu">
+            <img src="assets/menu.svg" alt="mobile menu icon" />
           </li>
         </ul>
-
       </nav>
     </header>
+    <main>
+      <section class="hero">
+        <div class="hero-image">
+          <!-- <img src="assets/sushi-1.png" alt="picture of 2 wooden chopsticks holding a sushi"> -->
+          <h2>
+            人 <br />
+            最 <br />
+            適
+          </h2>
+          <div class="hero-image__overlay"></div>
+        </div>
+
+        <div class="hero-content">
+          <div class="hero-content-info">
+            <h1>Eat our sushi now or big regret</h1>
+            <p>
+              Feel the heavenly taste of our Japanese food. You won't eat
+              anything else after that.
+            </p>
+            <div class="hero-content__buttons">
+              <button class="hero-content__order-button">Order Now</button>
+              <button class="hero-content__play-button">
+                <img src="assets/play-circle.svg" alt="play media icon" />
+                How to order
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <script src="js/script.js" type="module"></script>
   </body>
 </html>
