@@ -8,6 +8,7 @@
   flex: 1;
   display: flex;
   position: relative;
+  cursor: pointer;
 }
 
 .header__logo-overlay {
@@ -46,6 +47,11 @@
   font-family: var(--plus-jakarta-sans);
   color: var(--secondary-color);
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.header__menu li:hover {
+  color: var(--primary-color);
 }
 
 .header__menu li img {
