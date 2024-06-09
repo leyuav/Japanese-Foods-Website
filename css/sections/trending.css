@@ -130,8 +130,9 @@
 }
 
 .trending__arrow-bottom {
-  bottom: -6.5px;
+  bottom: -10.5px;
   right: 12%;
+  transform: rotate(180deg);
 }
 
 .trending__arrow-bottom img,
@@ -143,4 +144,5 @@
 .trending__arrow-right {
   right: -2.5px;
   bottom: 12%;
+  transform: rotate(180deg);
 }
