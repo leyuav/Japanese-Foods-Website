@@ -68,13 +68,28 @@
               Feel the heavenly taste of our Japanese food. You won't eat
               anything else after that.
             </p>
-
             <div class="hero-content__buttons">
-              <button class="hero-content__order-button">Order Now</button>
-              <button class="hero-content__play-button">
+              <button id="order-now" class="hero-content__order-button">
+                Order Now
+              </button>
+              <button id="how-to-order" class="hero-content__play-button">
                 <img src="assets/play-circle.svg" alt="play media icon" />
                 How to order
               </button>
+            </div>
+          </div>
+
+          <div id="overlay" class="overlay">
+            <div class="overlay__content">
+              <span class="close-button" id="close-button"> &times; </span>
+              <h2>My Order</h2>
+              <img
+                src="assets/sushi-2.png"
+                alt="graphic design picture of sushi"
+                width="200"
+              />
+              <p>1x set</p>
+              <button id="payment-button">Pay Now</button>
             </div>
           </div>
 
@@ -104,7 +119,7 @@
               data-aos="fade-right"
             />
           </div>
-          <button class="about-us__button">
+          <button id="learn-more" class="about-us__button">
             Learn More
             <img
               src="assets/arrow-up-right.svg"
