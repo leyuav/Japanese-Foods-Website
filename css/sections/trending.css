@@ -5,12 +5,8 @@
   overflow: hidden;
 }
 
-.trending__discover {
-  position: absolute;
-}
-
 .trending-sushi,
-.trending-drink {
+.trending-drinks {
   width: 100%;
   min-height: 640px;
   display: flex;
@@ -94,6 +90,17 @@
   z-index: 1;
   background-color: var(--secondary-color);
   border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trending__discover p {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: var(--plus-jakarta-sans);
+  font-weight: 500;
+  font-size: 18px;
 }
 
 /* Arrows */
