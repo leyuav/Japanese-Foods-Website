@@ -32,8 +32,6 @@ document.getElementById("learn-more").addEventListener("click", function () {
   window.open("https://sushiuniversity.jp/basicknowledge", "_blank");
 });
 
-document
-  .getElementById("payment-button")
-  .addEventListener("click", function () {
-    window.open("https://buy.stripe.com/5kAeXo4FE0E9gN26oo", "_blank");
-  });
+document.getElementById("payment-button").addEventListener("click", function () {
+  window.location.href = "https://buy.stripe.com/5kAeXo4FE0E9gN26oo";
+});
