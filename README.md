@@ -1,0 +1,6 @@
+- Modern foods website example
+- Added AOS animations
+- Responsive for mobile
+- Example payment overlay
+- Form submission to Formbold
+- CSS BEM naming convention
